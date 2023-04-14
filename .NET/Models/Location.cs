@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Models.Domain.Locations
+namespace MiVet.Models.Domain.Locations
 {
     public class Location
     {
