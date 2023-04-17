@@ -1,9 +1,9 @@
-using Sabio.Models;
-using Sabio.Models.Domain.VetProfiles;
-using Sabio.Models.Requests.VetProfiles;
+using MiVet.Models;
+using MiVet.Models.Domain.VetProfiles;
+using MiVet.Models.Requests.VetProfiles;
 using System;
 
-namespace Sabio.Services.Interfaces
+namespace MiVet.Services.Interfaces
 {
     public interface IVetProfileService
     {
