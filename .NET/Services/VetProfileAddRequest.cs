@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Sabio.Models.Domain.Locations;
-using Sabio.Models.Domain.Practices;
+using MiVet.Models.Domain.Locations;
+using MiVet.Models.Domain.Practices;
 
-namespace Sabio.Models.Domain.VetProfiles
+namespace MiVet.Models.Domain.VetProfiles
 {
     public class VetProfileV2
     {
