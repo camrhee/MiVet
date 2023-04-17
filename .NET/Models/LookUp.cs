@@ -1,4 +1,4 @@
-namespace Sabio.Models.Domain
+namespace MiVet.Models.Domain
 {
     public class LookUp
     {
