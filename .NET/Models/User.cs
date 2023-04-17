@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sabio.Models.Domain.VetProfiles
+namespace MiVet.Models.Domain.VetProfiles
 {
     public class User
     {
