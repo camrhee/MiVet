@@ -1,16 +1,16 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Sabio.Models;
-using Sabio.Models.Domain.VetProfiles;
-using Sabio.Models.Requests.VetProfiles;
-using Sabio.Services;
-using Sabio.Services.Interfaces;
-using Sabio.Web.Controllers;
-using Sabio.Web.Models.Responses;
+using MiVet.Models;
+using MiVet.Models.Domain.VetProfiles;
+using MiVet.Models.Requests.VetProfiles;
+using MiVet.Services;
+using MiVet.Services.Interfaces;
+using MiVet.Web.Controllers;
+using MiVet.Web.Models.Responses;
 using System;
 
-namespace Sabio.Web.Api.Controllers
+namespace MiVet.Web.Api.Controllers
 {
     [Route("api/vetprofiles")]
     [ApiController]
