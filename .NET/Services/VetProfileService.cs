@@ -1,6 +1,6 @@
-using Sabio.Data.Providers;
-using Sabio.Models.Domain.VetProfiles;
-using Sabio.Models.Requests.VetProfiles;
+using MiVet.Data.Providers;
+using MiVet.Models.Domain.VetProfiles;
+using MiVet.Models.Requests.VetProfiles;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -8,18 +8,18 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Sabio.Services.Interfaces;
-using Sabio.Data;
-using Sabio.Models;
+using MiVet.Services.Interfaces;
+using MiVet.Data;
+using MiVet.Models;
 using System.Collections;
-using Sabio.Models.Domain.Locations;
-using Sabio.Models.Domain;
+using MiVet.Models.Domain.Locations;
+using MiVet.Models.Domain;
 using Stripe.Terminal;
-using Sabio.Models.Domain.Practices;
-using Location = Sabio.Models.Domain.Locations.Location;
-using Practice = Sabio.Models.Domain.VetProfiles.Practice;
+using MiVet.Models.Domain.Practices;
+using Location = MiVet.Models.Domain.Locations.Location;
+using Practice = MiVet.Models.Domain.VetProfiles.Practice;
 
-namespace Sabio.Services
+namespace MiVet.Services
 {
     public class VetProfileService : IVetProfileService 
     {
